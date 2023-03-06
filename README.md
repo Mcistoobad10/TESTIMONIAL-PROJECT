@@ -2,13 +2,15 @@
 
 This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
+# Table of contents
 
-# 1.OVERVIEW.
-# 2.SOLUTION.
-# 3.MY PROCESS.
-# 4.USEFUL RESOURCES.
-# 5.AUTHOR DETAILS.
+## 1.OVERVIEW.
+### This is/was a challenge from front-end mentor requiring the participants to design a testimonial. The result of the one I created can be seen in the 'screenshot.png' file.
+
+## 2.SOLUTION.
+## 3.MY PROCESS.
+## 4.USEFUL RESOURCES.
+## 5.AUTHOR DETAILS.
 
  
 ## OVERVIEW
