@@ -4,10 +4,10 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ## Table of contents
 
-1.OVERVIEW.
-2.SOLUTION.
+1.[OVERVIEW.]
+2.[SOLUTION.]
 3.MY PROCESS.
-4. USEFUL RESOURCES.
+4.USEFUL RESOURCES.
 5.AUTHOR DETAILS.
 
  
