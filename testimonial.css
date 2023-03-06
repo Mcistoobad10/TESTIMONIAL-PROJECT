@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;0,500;0,600;1,200&family=Raleway:ital@1&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 13px;
+    font-family:'Barlow Semi Condensed', sans-serif;
+    line-height: 1.5;
+    background-color: hsl(0, 0%, 81%);
+}
+ 
+.testimonials {
+    margin: 100px auto;
+    padding: 20px;
+    max-width: 1440px;
+    display: grid;
+    grid-template-areas:
+    'Daniel Daniel Jonathan Kira'
+    'Jeanette Patrick Patrick Kira' ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+.card {
+    border-radius: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    background: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex; 
+    align-items: center;   
+    margin-bottom: 10px;
+}
+
+.card__image {
+    border-radius: 50%;
+    margin-right: 20px;
+    height: 45px;
+    width: 45px;
+}
+
+.Daniel div.header img {
+    border: 2px solid hsl(263, 73%, 68%);
+}
+
+.Patrick div.header img {
+    border: 2px solid hsl(263, 55%, 52%);
+}
+
+
+.header__text p {
+    opacity: 50%;
+}
+
+
+/*### styles for the text after the header ###*/
+.card__paragraph1{
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.card__paragraph2 {
+    opacity: 70%;
+
+}
+
+/* ##### styles specific to each card ##### */
+.card.Daniel {
+    background-color: hsl(263, 55%, 52%) ;
+    color: hsl(0, 0%, 100%);
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top 0px right 80px;
+    grid-area: Daniel;
+    
+}
+.card.Jonathan {
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(0, 0%, 100%);
+    grid-area: Jonathan;
+}
+.card.Jeanette {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(217, 19%, 35%);
+    grid-area: Jeanette;
+}
+.card.Patrick {
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(0, 0%, 100%);
+    grid-area: Patrick;
+    
+}
+.card.Kira {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(217, 19%, 35%) ;
+    grid-area: Kira;
+}
+
+
+/* ############## MEDIA QUERY############# */
+@media(max-width:575px) {
+    .testimonials {
+        grid-template-areas:
+        'Daniel Daniel Daniel Daniel'
+        'Jonathan Jonathan Jonathan Jonathan'
+        'Jeanette Jeanette Jeanette Jeanette'
+        'Patrick Patrick Patrick Patrick'
+        'Kira Kira Kira Kira';
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .card.Daniel{
+        grid-area: Daniel;
+    }
+    .card.Jonathan{
+        grid-area: Jonathan;            
+    }
+    .card.Jeanette{
+        grid-area: Jeanette;            
+    }
+    .card.Patrick{
+        grid-area: Patrick;            
+    }
+    .card.Kira{
+        grid-area: Kira;            
+    }
+
+
+}
